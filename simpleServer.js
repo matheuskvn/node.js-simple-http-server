@@ -1,6 +1,7 @@
 import http from 'http';
+import 'dotenv/config';
 
-const PORT = 3000;
+const PORT = process.env.PORT;
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
