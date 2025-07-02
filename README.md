@@ -22,17 +22,12 @@ A very simple HTTP server built with Node.js, ideal for learning and testing bas
    npm install
    ```
 
-3. Create a `.env` file in the project root and set the port:
-   ```
-   PORT=8000
-   ```
-
-4. Start the server:
+3. Start the server:
    ```bash
    node simpleServer.js
    ```
 
-5. Open your browser and go to `http://localhost:8000` (or the port you set).
+4. Open your browser and go to `http://localhost:8000` (or the port you set).
 
 ## Example Response
 
